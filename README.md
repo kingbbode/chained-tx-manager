@@ -2,8 +2,11 @@
 
 ### 1. ChainedTransactionManager
 
-- propagation
-- datasource sequence
+propagation 동작 관계 실험
+
+- [ChainedTxServiceRequiredTest](https://github.com/kingbbode/chained-tx-manager/blob/master/src/test/java/com/github/kingbbode/chainedtxmanager/experiment/ChainedTxServiceRequiredTest.java)
+- [ChainedTxServiceRequiresNewTest](https://github.com/kingbbode/chained-tx-manager/blob/master/src/test/java/com/github/kingbbode/chainedtxmanager/experiment/ChainedTxServiceRequiresNewTest.java)
+
 
 ### 2. TransactionSynchronization
 
