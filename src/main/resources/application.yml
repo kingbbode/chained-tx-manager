@@ -1,0 +1,22 @@
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL57Dialect
+        format_sql: true
+    generate-ddl: true
+
+datasource:
+  a:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:a;MODE=MySQL;DATABASE_TO_LOWER=TRUE;DB_CLOSE_ON_EXIT=FALSE;
+    username: sa
+    password:
+  b:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:b;MODE=MySQL;DATABASE_TO_LOWER=TRUE;DB_CLOSE_ON_EXIT=FALSE;
+    username: sa
+    password:
+
+debug: true
